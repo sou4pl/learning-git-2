@@ -1,0 +1,20 @@
+.splash {
+    background-image: url(https://i.postimg.cc/d0Rr7HLJ/pexels-wendy-wei-1190297.jpg);
+    background-position: center -600px;
+    background-size: cover;
+    line-height: 1.7; 
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 8px black;
+}
+
+.splash h1{
+    font-size: xx-large;}
+
+.splash h2{
+    font-style: italic;
+    font-size: x-large;
+}
+
