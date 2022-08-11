@@ -1,6 +1,6 @@
 .splash {
     background-image: url(https://i.postimg.cc/d0Rr7HLJ/pexels-wendy-wei-1190297.jpg);
-    background-position: center -500px;
+    background-position: center -400px;
     background-size: cover;
     line-height: 1.7; 
     color: aliceblue;
@@ -31,3 +31,15 @@
     font-size: x-large;
 }
 
+.logo {
+    font-size: 72px;
+    color: coral;
+    background-color: aliceblue;
+    text-shadow:  none;
+    border-radius: 30%;
+    padding: 24px;
+}
+
+.logo:hover {
+    color: rgb(211, 89, 45);
+}
