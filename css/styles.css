@@ -1,6 +1,6 @@
 .splash {
     background-image: url(https://i.postimg.cc/d0Rr7HLJ/pexels-wendy-wei-1190297.jpg);
-    background-position: center -600px;
+    background-position: center -500px;
     background-size: cover;
     line-height: 1.7; 
     color: aliceblue;
@@ -8,10 +8,23 @@
     text-align: center;
     margin: 0;
     text-shadow: 2px 2px 8px black;
+    padding: 24px;
 }
 
-.splash h1{
-    font-size: xx-large;}
+.title {
+    font-size: xx-large;
+    position: relative;}
+
+.title::after {
+        position: absolute;
+        content: '';
+        bottom: -12px;
+        left: 50%;
+        width: 200px;
+        height: 2px;
+        transform: translateX(-50%);
+        background: aliceblue;
+}
 
 .splash h2{
     font-style: italic;
